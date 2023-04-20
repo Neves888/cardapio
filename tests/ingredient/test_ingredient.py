@@ -5,7 +5,7 @@ from src.models.ingredient import Ingredient, Restriction  # noqa: F401, E261, E
 def test_ingredient():
     ingredient_1 = Ingredient("ovo")
     assert ingredient_1.name == "ovo"
-    assert ingredient_1.restrictions == []
+    assert ingredient_1.restrictions == set()
     assert ingredient_1.__repr__() == "Ingredient('ovo')"
 
     ingredient_2 = Ingredient("farinha")
