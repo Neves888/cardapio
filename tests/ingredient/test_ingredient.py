@@ -1,4 +1,4 @@
-from src.models.ingredient import Ingredient, Restriction  # noqa: F401, E261, E501
+from src.models.ingredient import Ingredient # noqa: F401, E261, E501
 
 
 # Req 1
@@ -10,7 +10,7 @@ def test_ingredient():
 
     ingredient_2 = Ingredient("farinha")
     assert ingredient_2.name == "farinha"
-    assert ingredient_2.restrictions == []
+    assert ingredient_2.restrictions == set()
     assert ingredient_2.__repr__() == "Ingredient('farinha')"
 
     ingredient_3 = Ingredient("massa")
