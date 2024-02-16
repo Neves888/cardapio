@@ -1,10 +1,20 @@
-# :construction: README em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto.
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+# Criação de Cardápio 👨🏿‍🍳👩‍🍳
+
+Bem-vindo ao projeto de criação de Cardápio! 🖖🏾 
+<br><br>
+Neste projeto foi desenvolvida uma ferramenta para a construção de cardápios de forma simples, considerando as restrições alimentares e a disponibilidade dos ingredientes em estoque de um restaurante hipotético. 🍛🍙🍳🌮
+
+## Descrição do Projeto 📋
+
+1. Construção de testes para garantir que tudo funcione como esperado;
+2. Implementação de uma nova classe para mapear os pratos e suas respectivas receitas;
+3. Implementação de uma classe para gerar cardápios;
+4. Implementação de uma classe para a gestão de estoque dos ingredientes.
+
+## Habilidades Exercitadas 🍳🍲🥘
+
+- Estruturas de dados Dict e Set do Python ✅
+- Uso da ferramenta Pandas para criar cardápios com sua estrutura de dados DataFrame ✅
+- Testes de software ✅
+- Programação Orientada a Objetos ✅
+
